@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UTBodyDataModelStoreContainer" CdmEntityContainer="UTBodyDataEntities">
+    <EntitySetMapping Name="BodyDatas">
+      <EntityTypeMapping TypeName="UTBodyDataModel.BodyData">
+        <MappingFragment StoreEntitySet="BodyData">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Joints" ColumnName="Joints" />
+          <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="uspInsertBodyData" FunctionName="UTBodyDataModel.Store.uspInsertBodyData" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="UTBodyDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BodyData">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="SessionName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Joints" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="JointPoints" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="timestamp" Type="datetime" />
+        </EntityType>
+        <Function Name="uspGetBodyData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="uspGetBodyDataByUserNameAndSessionName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="nvarchar" Mode="In" />
+          <Parameter Name="sessionname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="uspGetPatients" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="uspGetSessionsByUserName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="uspInsertBodyData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="username" Type="nvarchar" Mode="In" />
+          <Parameter Name="SessionName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Joints" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="JointPoints" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="timestamp" Type="datetime" Mode="In" />
+        </Function>
+        <EntityContainer Name="UTBodyDataModelStoreContainer">
+          <EntitySet Name="BodyData" EntityType="Self.BodyData" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UTBodyDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BodyData">
+          <Key>
+            <PropertyRef Name="UserID" />
+          </Key>
+          <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SessionName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Joints" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="JointPoints" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="timestamp" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="UTBodyDataEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BodyDatas" EntityType="Self.BodyData" />
+          <FunctionImport Name="uspGetBodyData" ReturnType="Collection(UTBodyDataModel.uspGetBodyData_Result)" />
+          <FunctionImport Name="uspGetBodyDataByUserNameAndSessionName" ReturnType="Collection(UTBodyDataModel.uspGetBodyDataByUserNameAndSessionName_Result)">
+            <Parameter Name="username" Mode="In" Type="String" />
+            <Parameter Name="sessionname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="uspGetPatients" ReturnType="Collection(String)" />
+          <FunctionImport Name="uspGetSessionsByUserName" ReturnType="Collection(String)">
+          <Parameter Name="username" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="uspInsertBodyData">
+            <Parameter Name="username" Mode="In" Type="String" />
+            <Parameter Name="SessionName" Mode="In" Type="String" />
+            <Parameter Name="Joints" Mode="In" Type="String" />
+            <Parameter Name="JointPoints" Mode="In" Type="String" />
+            <Parameter Name="timestamp" Mode="In" Type="DateTime" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="uspGetBodyData_Result">
+          <Property Type="Int32" Name="UserID" Nullable="false" />
+          <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="SessionName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Joints" Nullable="false" />
+          <Property Type="String" Name="JointPoints" Nullable="false" />
+          <Property Type="DateTime" Name="timestamp" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="uspGetBodyDataByUserNameAndSessionName_Result">
+          <Property Type="Int32" Name="UserID" Nullable="false" />
+          <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="SessionName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Joints" Nullable="false" />
+          <Property Type="String" Name="JointPoints" Nullable="false" />
+          <Property Type="DateTime" Name="timestamp" Nullable="true" Precision="23" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UTBodyDataModelStoreContainer" CdmEntityContainer="UTBodyDataEntities">
+          <EntitySetMapping Name="BodyDatas">
+            <EntityTypeMapping TypeName="UTBodyDataModel.BodyData">
+              <MappingFragment StoreEntitySet="BodyData">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="SessionName" ColumnName="SessionName" />
+                <ScalarProperty Name="Joints" ColumnName="Joints" />
+                <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="uspGetBodyData" FunctionName="UTBodyDataModel.Store.uspGetBodyData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="UTBodyDataModel.uspGetBodyData_Result">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="SessionName" ColumnName="SessionName" />
+                <ScalarProperty Name="Joints" ColumnName="Joints" />
+                <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="uspGetBodyDataByUserNameAndSessionName" FunctionName="UTBodyDataModel.Store.uspGetBodyDataByUserNameAndSessionName">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="UTBodyDataModel.uspGetBodyDataByUserNameAndSessionName_Result">
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="SessionName" ColumnName="SessionName" />
+                <ScalarProperty Name="Joints" ColumnName="Joints" />
+                <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+                <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="uspGetPatients" FunctionName="UTBodyDataModel.Store.uspGetPatients" />
+          <FunctionImportMapping FunctionImportName="uspGetSessionsByUserName" FunctionName="UTBodyDataModel.Store.uspGetSessionsByUserName" />
+          <FunctionImportMapping FunctionImportName="uspInsertBodyData" FunctionName="UTBodyDataModel.Store.uspInsertBodyData" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

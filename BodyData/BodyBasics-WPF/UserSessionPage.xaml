@@ -1,0 +1,34 @@
+﻿<Page x:Class="Microsoft.Samples.Kinect.BodyBasics.UserSessionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Microsoft.Samples.Kinect.BodyBasics"
+      mc:Ignorable="d" 
+      d:DesignHeight="900" d:DesignWidth="1600"
+      Title="UserSessionPage"
+       Loaded="UserSessionPage_Loaded" >
+
+
+    <Grid  Background="#FF5D5D5D"   >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+
+        </Grid.ColumnDefinitions>
+
+        <StatusBar Grid.Row="2" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="White" Foreground="#FFE0B3B3">
+            <StatusBarItem Content="{Binding StatusText}" />
+        </StatusBar>
+        <MediaElement x:Name="mediaElement" HorizontalAlignment="Left" Height="446" Margin="32,198,0,0" VerticalAlignment="Top" Width="758" Grid.Column="1" Grid.RowSpan="2"/>
+        <Viewbox Grid.Row="1" HorizontalAlignment="Center">
+            <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
+        </Viewbox>
+    </Grid>
+
+</Page>

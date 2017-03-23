@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UTBodyDataModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BodyData">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Joints" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="JointPoints" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="timestamp" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Function Name="uspInsertBodyData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Joints" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="JointPoints" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="timestamp" Type="datetime" Mode="In" />
+  </Function>
+  <EntityContainer Name="UTBodyDataModelStoreContainer">
+    <EntitySet Name="BodyData" EntityType="Self.BodyData" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

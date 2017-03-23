@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UTBodyDataModelStoreContainer" CdmEntityContainer="UTBodyDataEntities">
+    <EntitySetMapping Name="BodyDatas">
+      <EntityTypeMapping TypeName="UTBodyDataModel.BodyData">
+        <MappingFragment StoreEntitySet="BodyData">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="SessionName" ColumnName="SessionName" />
+          <ScalarProperty Name="Joints" ColumnName="Joints" />
+          <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="uspGetBodyData" FunctionName="UTBodyDataModel.Store.uspGetBodyData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UTBodyDataModel.uspGetBodyData_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="SessionName" ColumnName="SessionName" />
+          <ScalarProperty Name="Joints" ColumnName="Joints" />
+          <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspGetBodyDataByUserNameAndSessionName" FunctionName="UTBodyDataModel.Store.uspGetBodyDataByUserNameAndSessionName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UTBodyDataModel.uspGetBodyDataByUserNameAndSessionName_Result">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="SessionName" ColumnName="SessionName" />
+          <ScalarProperty Name="Joints" ColumnName="Joints" />
+          <ScalarProperty Name="JointPoints" ColumnName="JointPoints" />
+          <ScalarProperty Name="timestamp" ColumnName="timestamp" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="uspGetPatients" FunctionName="UTBodyDataModel.Store.uspGetPatients" />
+    <FunctionImportMapping FunctionImportName="uspGetSessionsByUserName" FunctionName="UTBodyDataModel.Store.uspGetSessionsByUserName" />
+    <FunctionImportMapping FunctionImportName="uspInsertBodyData" FunctionName="UTBodyDataModel.Store.uspInsertBodyData" />
+  </EntityContainerMapping>
+</Mapping>

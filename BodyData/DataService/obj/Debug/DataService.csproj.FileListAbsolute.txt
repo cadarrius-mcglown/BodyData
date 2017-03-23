@@ -1,0 +1,69 @@
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\ApplicationInsights.config
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\DataService.dll.config
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\DataService.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\DataService.pdb
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.Web.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.Web.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\obj\Debug\DataService.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\obj\Debug\DataService.pdb
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\EntityFramework.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\EntityFramework.SqlServer.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\EntityFramework.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\bin\EntityFramework.SqlServer.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\DataService\obj\Debug\DataService.csprojResolveAssemblyReference.cache
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\ApplicationInsights.config
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\DataService.dll.config
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\DataService.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\DataService.pdb
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\EntityFramework.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\EntityFramework.SqlServer.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.Web.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\EntityFramework.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\EntityFramework.SqlServer.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.Web.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\obj\Debug\DataService.csprojResolveAssemblyReference.cache
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\obj\Debug\DataService.dll
+C:\Users\cadarrius\Desktop\tempUtBackup-master\Latest Version\DataService\obj\Debug\DataService.pdb
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\ApplicationInsights.config
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\DataService.dll.config
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\DataService.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\DataService.pdb
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\EntityFramework.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\EntityFramework.SqlServer.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.Web.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\EntityFramework.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\EntityFramework.SqlServer.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.Web.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\obj\Debug\DataService.csprojResolveAssemblyReference.cache
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\obj\Debug\DataService.dll
+C:\Users\cadarrius\Documents\GitHub\BodyData\BodyData\DataService\obj\Debug\DataService.pdb

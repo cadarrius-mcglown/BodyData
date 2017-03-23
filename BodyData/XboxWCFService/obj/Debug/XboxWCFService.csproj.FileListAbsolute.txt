@@ -1,0 +1,100 @@
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\ApplicationInsights.config
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\XboxWCFService.dll.config
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\XboxWCFService.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\XboxWCFService.pdb
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.Web.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.Web.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\obj\Debug\XboxWCFService.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\obj\Debug\XboxWCFService.pdb
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Newtonsoft.Json.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\Newtonsoft.Json.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\EntityFramework.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\EntityFramework.SqlServer.dll
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\EntityFramework.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\bin\EntityFramework.SqlServer.xml
+C:\Users\cadarrius\Desktop\Latest kinect\XboxWCFService\obj\Debug\XboxWCFService.csprojResolveAssemblyReference.cache
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\ApplicationInsights.config
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\XboxWCFService.dll.config
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\XboxWCFService.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\XboxWCFService.pdb
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\EntityFramework.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\EntityFramework.SqlServer.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.Web.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Newtonsoft.Json.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\EntityFramework.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\EntityFramework.SqlServer.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.Web.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\bin\Newtonsoft.Json.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\obj\Debug\XboxWCFService.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\obj\Debug\XboxWCFService.pdb
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\XboxWCFService\obj\Debug\XboxWCFService.csprojResolveAssemblyReference.cache
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\ApplicationInsights.config
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\XboxWCFService.dll.config
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\XboxWCFService.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\XboxWCFService.pdb
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.SqlServer.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.Web.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Newtonsoft.Json.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.SqlServer.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.Web.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Newtonsoft.Json.xml
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\obj\Debug\XboxWCFService.csprojResolveAssemblyReference.cache
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\obj\Debug\XboxWCFService.dll
+C:\Users\cadarrius\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\obj\Debug\XboxWCFService.pdb
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\ApplicationInsights.config
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\XboxWCFService.dll.config
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\XboxWCFService.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\XboxWCFService.pdb
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.SqlServer.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.Web.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Newtonsoft.Json.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\EntityFramework.SqlServer.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.Web.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\bin\Newtonsoft.Json.xml
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\obj\Debug\XboxWCFService.csprojResolveAssemblyReference.cache
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\obj\Debug\XboxWCFService.dll
+C:\Users\cmcglow1\Documents\GitHub\tempUtBackup\Latest Version\XboxWCFService\obj\Debug\XboxWCFService.pdb
